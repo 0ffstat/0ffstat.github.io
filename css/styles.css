@@ -19,9 +19,16 @@ h1, h2, h3, h4, h5, h6 {
 /* TITLE */
 
 .head-logo {
-  height: 75vh;
+  max-height: 75vh;
   max-width: 75vw;
   padding-bottom: 2%;
+}
+
+@media (max-width: 1000px) {
+  .head-logo {
+    padding-top: 10%;
+  }
+
 }
 
 .title-section {
@@ -36,6 +43,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #4fb370ff;
   font-size: 2.5rem;
 }
+
+@media (max-width: 1000px) {
+  .section-title {
+    padding: 6% 0 6% 0;
+  }
+}
+
 
 .wwd-section {
   background-color: white;
@@ -98,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 15px;
   vertical-align: middle;
   width: 100%;
 }
