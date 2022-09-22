@@ -206,3 +206,12 @@ a:hover span {
 .tui:hover {
   background-color: #EB858450;
 }
+
+@media (max-width: 1000px){
+  .contact-section {
+    padding: 4% 10% 2% 10%;
+  }
+  .tui {
+    padding-top: 4%;
+  }
+}
