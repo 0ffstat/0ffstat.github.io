@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .head-logo {
   height: 75vh;
+  max-width: 75vw;
   padding-bottom: 2%;
 }
 
