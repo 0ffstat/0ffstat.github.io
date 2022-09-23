@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .wwd-section hr{
   margin: 3% auto;
-  border: 3px solid #EB8584;
+  border-top: 5px solid #EB8584;
   width: 100px;
 }
 
@@ -198,7 +198,7 @@ a:hover span {
 }
 
 .tui {
-  padding: 2% 1% 1% 1%;
+  padding: 2% 1% 2% 1%;
   width: 150px;
   border-radius: 10%;
 }
